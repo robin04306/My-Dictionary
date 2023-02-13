@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/bluee"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_partsofspeech_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exclamation"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reycler_defination_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
